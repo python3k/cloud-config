@@ -14,9 +14,6 @@ Be sure to name your application using the application.y(a)ml (or properties) pa
 This name will be used as a key in the path to filter out your application resource files.
 
 Example url:
-`http://localhost:8888/my-application/my-env/branch` 
-* will return only the files from "my-application"
-* environment "my-env" (aka spring profile).
-* "branch" is optional and acts like a label (according to the docu), whatever that might mean.
+`http://localhost:8888/my-application/my-env/branch` will return only the files from "my-application". environment "my-env" (aka spring profile). "branch" is optional and acts like a label (according to the docu), whatever that might mean.
 
 see also: __wiki
