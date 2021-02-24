@@ -1,1 +1,3 @@
-a: b
+application: cloud-config-client
+file: application-dev.yaml
+environment: dev
