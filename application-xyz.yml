@@ -1,3 +1,0 @@
-application: cloud-config
-file: application-xyz.yml
-environment: xyz
