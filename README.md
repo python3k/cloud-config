@@ -1,29 +1,15 @@
-# README #
+# cloud-config repo #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+link: https://docs.spring.io/spring-cloud-config/docs/current/reference/html/
 
-### What is this repository for? ###
+This is a config repo containing only application.y(a)ml files for spring-cloud-config-enabled applications (requires the spring-cloud-starter-config-client dependency).
+bootstrap.y(a)ml files have been deprecated since Spring Boot 2.4+ and are no longer supported (unless you add the spring-cloud-starter-bootstrap dependency).
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+By default it scans for files on the root directory only, but i have configured search-paths = '{application}', so now it makes the distiction between applications,
+and you can put application-specific application.y(a)ml files in their respective subdirectories.
 
-### How do I get set up? ###
+Example url:
+`http://localhost:8888/my-application/my-env/branch` will return only the files from "my-application" and environment "my-env" (aka spring profile).
+"branch" is optional and acts like a label (according to the docu), whatever that might mean.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+see also: __wiki
