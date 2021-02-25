@@ -1,0 +1,6 @@
+app:
+  scope: remote
+  config:
+    application: cloud-config-client
+    file: application.yaml
+    environment: default
