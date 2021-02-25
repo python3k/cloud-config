@@ -1,6 +1,6 @@
 app:
   scope: remote
   config:
-    application: application
+    application: app
     file: application.yaml
     environment: default
