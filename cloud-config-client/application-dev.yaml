@@ -4,3 +4,4 @@ app:
     application: cloud-config-client
     file: application-dev.yaml
     environment: dev
+    encrypted: '{cipher}AQCqeK9r712UXvKfe0zaMgZOSGPlcxKQAIPPrXnQ8vt6Sa3xoeNuwYfwEE1DadidRQtYOrcxQ8DHDWFCeXkmnapgQe07+VObdyhNVNYL0CD6W5eWRHbJp+Qctc+fDrR6X3xRT3eQFVR0pf65M39mzbRD9jJS9qLoAcPecW2smiUjCQ5p+pEvrsEl36SQHrmAG+1Y6+V0FOM4DzLO0j+strJydoGu+/uTXfSsB+mQkACx5ChjzbhVgafBtYENY1CB9/coRD5P2a2lhSYzZBpsOzeJkZIuWwvybSe/rLIqarNoxVSNvJxMvrCFiPIdy2LaaIU5yEjoz5v70hKLrgSB8oVTUY0ggDVwjxvD+001AAEWdNCxuhfea7iLDI3vnOvjo8vaPKoKQ4odvDdS'
