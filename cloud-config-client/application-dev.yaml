@@ -1,4 +1,4 @@
 config:
-	application: cloud-config-client
-	file: application-dev.yaml
-	environment: dev
+  application: cloud-config-client
+  file: application-dev.yaml
+  environment: dev
