@@ -1,4 +1,4 @@
-remote:
+app:
   scope: remote
   config:
     application: cloud-config-client
