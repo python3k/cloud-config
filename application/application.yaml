@@ -1,2 +1,6 @@
-application: application
-environment: default
+app:
+  scope: remote
+  config:
+    application: application
+    file: application.yaml
+    environment: default
