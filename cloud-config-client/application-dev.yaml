@@ -1,4 +1,5 @@
 remote:
+  scope: remote
   config:
     application: cloud-config-client
     file: application-dev.yaml
