@@ -1,0 +1,11 @@
+# Push every commit to Github
+# GITHUB_USER: this is the username, not the email-address you login with
+# GITHUB_PWD: generated github 'personal access token' through https://github.com/settings/tokens
+# github remote: https://<username:pwd>github.com/python3k/cloud-config
+pipelines:
+  branches:
+    master:
+      - step:
+          script:
+            - git remote add github https://$GITHUB_USER:$GITHUB_PWD@github.com/python3k/cloud-config
+            - git push -u github $BITBUCKET_BRANCH
